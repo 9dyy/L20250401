@@ -3,16 +3,16 @@ using namespace std;
 
 void main()
 {
-	int a = 3, b = 5;
-	float c = 4.0f, d = 7.0f;
+	int intX = 3, intB = 5;
+	float floatX = 4.0f, floatY = 7.0f;
 
-	cout << a + b << "\n";
-	cout << a - b << "\n";
-	cout << a * b << "\n";
-	cout << a / b << "\n";
+	cout << intX + intB << "\n";
+	cout << intX - intB << "\n";
+	cout << intX * intB << "\n";
+	cout << intX / intB << "\n";
 	cout << "\n";
-	cout << a + b << "\n";
-	cout << a - b << "\n";
-	cout << a * b << "\n";
-	cout << double(a) / b << "\n";
+	cout << floatX + floatY << "\n";
+	cout << floatX - floatY << "\n";
+	cout << floatX * floatY << "\n";
+	cout << floatX / floatY << "\n";
 }
